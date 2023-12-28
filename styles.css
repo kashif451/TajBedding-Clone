@@ -45,8 +45,7 @@ a{
      width: 20px;
       background-color:#631426 ;
        color: aliceblue;
-       /* text-align: center; */
-       /* padding-top:4px ; */
+      
        display: flex;
        justify-content: center;
        align-items: center;
@@ -153,6 +152,7 @@ a{
      width: 0%;
      background-color: #ffffff;
      transition: all ease 0.5s;
+     
  }
  .text-animate-2:hover::after{
    
@@ -177,9 +177,10 @@ a{
     justify-content: space-evenly;
 
 }
+
 .Box{
     
-    /* border: 1px solid black; */
+   
     height: 100%;
     width: 28%;
 }
@@ -190,7 +191,7 @@ a{
 
 }
 .sofa3{
-    /* box-shadow:1px 1px 1px 1px  ; */
+   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -227,9 +228,7 @@ a{
     color: #646464;
     font-weight: bold;
     text-align: center;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+   
 }
 .aboutsection h4{
     margin: 0px 0px 12px;
@@ -252,14 +251,21 @@ margin-top: 150px;
 }
 .footer2 {
     padding-bottom: 10px;
+    display: inline-block;
 }
-ul a{
-    display: block;
-    font-size: 12px;
-    margin-top: 15px;
+ul{
+    list-style-type: none;
+}
+ul li{
+  
+    font-size: 12px; 
+     margin-top: 15px;
+}
+ul li a{
+    color: #ffffff;
 }
 .footerinput{
-    
+     padding-left: 8px;
     margin-top: 15px;
     height: 38px;
     width: 293px;
@@ -278,6 +284,11 @@ ul a{
     width: 124px;
     background-color: #3B3B3B;
 }
+.Submit:hover{
+    background-color: #ffffff;
+    color: #232323;
+    transition: all ease 0.3s;
+}
 .lastsection{
     border-top: 1px solid #ffffff;
     padding-left: 50px;
@@ -291,4 +302,8 @@ ul a{
     position: fixed;
     bottom: 30px;
     right: 30px;
+}
+.fa-brands:hover{
+   color: #3B5998;
+   transition: all ease 0.3s;
 }
